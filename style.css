@@ -1,0 +1,111 @@
+body {
+ /* background: #f8f8fa;*/
+  background-image: url("images/NewYork2.jpg");
+  background-size: cover;
+  color: #4f5b66 ;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 25px;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: bold;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+h2 {
+  font-size: 15px;
+  margin-block-start: 0.2em;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(47, 79, 79);
+  font-weight: bold;
+  display: inline-block;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.card {
+  background: #f8f8fa;
+  padding: 15px;
+  box-shadow: 0px 20px 40px rgba(0,0,0,0.4);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.btn-grey {
+  /*background: #e3c9c9;*/
+  background-color: #65737e;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+  margin: 20px 0px;
+}
+
+.btn-grey:hover {
+  background-color: #e3c9c9;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  font-size: 40px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.follow-text {
+  font-size: 20px;
+}
+
+.social_link {
+  /*color:#e3c9c9 ;*/
+  color: #65737e;
+  font-size: 30px;
+}
+.social_link:hover {
+  color: #e3c9c9;
+}
